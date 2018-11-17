@@ -92,6 +92,7 @@
     <Compile Include="Assets\HeroEditor\FantasyHeroes\TestRoom\Scarecrow\Scarecrow.cs" />
     <Compile Include="Assets\HeroEditor\SpriteSheetMaker\SpriteSheetMaker.cs" />
     <None Include="Assets\HeroEditor\FantasyHeroes\TestRoom\BackgroundLicense.txt" />
+    <None Include="Assets\Game Data\races.txt" />
     <None Include="Assets\HeroEditor\Common\Shaders\GrayPaint.shader" />
     <None Include="Assets\Game Data\classes.txt" />
     <Reference Include="UnityEditor.StandardEvents">

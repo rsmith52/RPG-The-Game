@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{72BB5F83-36C9-EEF9-91A9-011204F5F394}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game Data/classes.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game Data/races.txt">
     <Files>
       <File FileName="Assets/Game Data/classes.txt" Line="1" Column="1" />
+      <File FileName="Assets/Game Data/races.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
