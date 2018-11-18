@@ -619,9 +619,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 8d9f8402-9da1-4fed-9e99-f2426e5c7ed6
+  projectName: RPG The Game
+  organizationId: rayd3rs
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

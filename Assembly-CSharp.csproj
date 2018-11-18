@@ -61,39 +61,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game Data\DataLoader.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\AnimationEvents.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\BowShooting.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Character.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\CharacterFlip.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\FingerTrigger.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Firearm.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\FirearmFire.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\FirearmReload.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\LayerManager.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\MeleeWeapon.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Projectile.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\Shell.cs" />
-    <Compile Include="Assets\HeroEditor\Common\CharacterScripts\WeaponControls.cs" />
-    <Compile Include="Assets\HeroEditor\Common\Data\FirearmParams.cs" />
-    <Compile Include="Assets\HeroEditor\Common\EditorScripts\CharacterEditor.cs" />
-    <Compile Include="Assets\HeroEditor\Common\EditorScripts\CharacterReferencesResolver.cs" />
-    <Compile Include="Assets\HeroEditor\Common\EditorScripts\EditorColorField.cs" />
-    <Compile Include="Assets\HeroEditor\Common\EditorScripts\FirearmCollection.cs" />
-    <Compile Include="Assets\HeroEditor\Common\Enums\FirearmLoadType.cs" />
-    <Compile Include="Assets\HeroEditor\Common\Enums\FirearmType.cs" />
-    <Compile Include="Assets\HeroEditor\Common\Enums\HoldType.cs" />
-    <Compile Include="Assets\HeroEditor\Common\Enums\MagazineType.cs" />
-    <Compile Include="Assets\HeroEditor\Common\ExampleScripts\ChangingEquipment.cs" />
-    <Compile Include="Assets\HeroEditor\Common\ExampleScripts\CharacterControl.cs" />
-    <Compile Include="Assets\HeroEditor\Common\ExampleScripts\PlayingAnimations.cs" />
-    <Compile Include="Assets\HeroEditor\Common\ExampleScripts\SaveLoadExample.cs" />
-    <Compile Include="Assets\HeroEditor\Common\ExampleScripts\TestRoom.cs" />
-    <Compile Include="Assets\HeroEditor\FantasyHeroes\TestRoom\Scarecrow\Scarecrow.cs" />
-    <Compile Include="Assets\HeroEditor\SpriteSheetMaker\SpriteSheetMaker.cs" />
-    <None Include="Assets\HeroEditor\FantasyHeroes\TestRoom\BackgroundLicense.txt" />
+    <Compile Include="Assets\Code\Stats\CharacterStats.cs" />
+    <Compile Include="Assets\Code\Stats\PlayerStats.cs" />
+    <Compile Include="Assets\Code\Stats\Stat.cs" />
+    <Compile Include="Assets\Code\Utilities\DataLoader.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\AnimationEvents.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\BowShooting.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\Character.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\CharacterFlip.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\FingerTrigger.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\Firearm.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\FirearmFire.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\FirearmReload.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\LayerManager.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\MeleeWeapon.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\Projectile.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\Shell.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\WeaponControls.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\Data\FirearmParams.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\EditorScripts\CharacterEditor.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\EditorScripts\CharacterReferencesResolver.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\EditorScripts\EditorColorField.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\EditorScripts\FirearmCollection.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\Enums\FirearmLoadType.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\Enums\FirearmType.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\Enums\HoldType.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\Enums\MagazineType.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\ExampleScripts\ChangingEquipment.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\ExampleScripts\CharacterControl.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\ExampleScripts\PlayingAnimations.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\ExampleScripts\SaveLoadExample.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\Common\ExampleScripts\TestRoom.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\FantasyHeroes\TestRoom\Scarecrow\Scarecrow.cs" />
+    <Compile Include="Assets\Reference\HeroEditor\SpriteSheetMaker\SpriteSheetMaker.cs" />
+    <None Include="Assets\Reference\HeroEditor\FantasyHeroes\TestRoom\BackgroundLicense.txt" />
     <None Include="Assets\Game Data\races.txt" />
-    <None Include="Assets\HeroEditor\Common\Shaders\GrayPaint.shader" />
+    <None Include="Assets\Reference\HeroEditor\Common\Shaders\GrayPaint.shader" />
     <None Include="Assets\Game Data\classes.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/raysmith/Unity/RPG The Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -309,7 +312,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.15f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="HeroEditor.Common">
-      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/HeroEditor/Common/HeroEditor.Common.dll</HintPath>
+      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/Reference/HeroEditor/Common/HeroEditor.Common.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/raysmith/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
