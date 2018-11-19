@@ -250,3 +250,7 @@
 /Users/raysmith/Unity/RPG The Game/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/raysmith/Unity/RPG The Game/obj/Debug/Assembly-CSharp.dll
 /Users/raysmith/Unity/RPG The Game/obj/Debug/Assembly-CSharp.pdb
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/Cinemachine.dll
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/com.unity.cinemachine.editor.dll
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/Cinemachine.dll.mdb
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/com.unity.cinemachine.editor.dll.mdb
