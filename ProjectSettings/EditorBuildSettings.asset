@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Overworld.unity
+    guid: 268f5c91ec69d41368fa2f3bc226a1a5
   m_configObjects: {}

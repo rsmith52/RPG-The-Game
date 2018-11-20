@@ -22,19 +22,25 @@ public class MovingPlayer : MovingCharacter {
         vertical = (int)(Input.GetAxisRaw("Vertical"));
 
         if (horizontal == 0 && vertical == 0) {
-
-        } else if (horizontal != 0) {
-            if (horizontal < 0) {
-                animator.SetInteger("direction", 3);
-            } else {
-                animator.SetInteger("direction", 1);
-            }
-            vertical = 0;
+            animator.SetBool("moving", false);
         } else {
-            if (vertical > 0) {
-                animator.SetInteger("direction", 0);
-            } else {
-                animator.SetInteger("direction", 2);
+            animator.SetBool("moving", true);
+            if (horizontal != 0) {
+                if (horizontal < 0) {
+                    animator.SetInteger("direction", 3);
+                }
+                else {
+                    animator.SetInteger("direction", 1);
+                }
+                vertical = 0;
+            }
+            else {
+                if (vertical > 0) {
+                    animator.SetInteger("direction", 0);
+                }
+                else {
+                    animator.SetInteger("direction", 2);
+                }
             }
         }
 
