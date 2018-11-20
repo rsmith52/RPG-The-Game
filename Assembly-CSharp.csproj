@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\Classes\Role.cs" />
+    <Compile Include="Assets\Code\Items\Item.cs" />
     <Compile Include="Assets\Code\Movement\MovingCharacter.cs" />
     <Compile Include="Assets\Code\Movement\MovingPlayer.cs" />
     <Compile Include="Assets\Code\Stats\CharacterStats.cs" />
@@ -98,9 +100,9 @@
     <Compile Include="Assets\Reference\HeroEditor\FantasyHeroes\TestRoom\Scarecrow\Scarecrow.cs" />
     <Compile Include="Assets\Reference\HeroEditor\SpriteSheetMaker\SpriteSheetMaker.cs" />
     <None Include="Assets\Reference\HeroEditor\FantasyHeroes\TestRoom\BackgroundLicense.txt" />
-    <None Include="Assets\Game Data\races.txt" />
+    <None Include="Assets\Data\Old Text Files\races.txt" />
     <None Include="Assets\Reference\HeroEditor\Common\Shaders\GrayPaint.shader" />
-    <None Include="Assets\Game Data\classes.txt" />
+    <None Include="Assets\Data\Old Text Files\classes.txt" />
     <Reference Include="Cinemachine">
       <HintPath>/Users/raysmith/Unity/RPG The Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
