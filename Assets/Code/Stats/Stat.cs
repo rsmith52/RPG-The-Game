@@ -11,7 +11,12 @@ public class Stat {
     private List<int> modifiers = new List<int>();
 
     public int getValue () {
-        return baseValue;
+        // Add all modifiers to base stat
+        int retVal = baseValue;
+        foreach (int i in modifiers) {
+            retVal += i;
+        }
+        return retVal;
     }
 
     public void changeValue (int value) {
