@@ -61,6 +61,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Coordinate Brush\Scripts\Editor\CoordinateBrush.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\GameObject Brush\Scripts\Editor\GameObjectBrush.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Line Brush\Scripts\Editor\LineBrush.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Prefab Brush\Scripts\Editor\PrefabBrush.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Random Brush\Scripts\Editor\RandomBrush.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\Editor\TintBrushSmooth.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Tint Brush\Scripts\Editor\TintBrush.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\Editor\RuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\CustomRuleTileMenu.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\RuleTileEditor.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\Editor\FirearmCollectionEditor.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\Editor\LayerManagerEditor.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\Editor\SpriteCollectionEditor.cs" />

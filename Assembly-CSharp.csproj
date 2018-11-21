@@ -76,6 +76,15 @@
     <Compile Include="Assets\Code\Stats\Stat.cs" />
     <Compile Include="Assets\Code\Utilities\GameManager.cs" />
     <Compile Include="Assets\Code\Utilities\Loader.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\TintTextureGenerator.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\GridInformation\Scripts\GridInformation.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Pipeline Tile\Scripts\PipelineTile.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Random Tile\Scripts\RandomTile.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\RuleOverrideTile.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Rule Tile\Scripts\RuleTile.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
+    <Compile Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\AnimationEvents.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\BowShooting.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\Character.cs" />
@@ -105,6 +114,8 @@
     <Compile Include="Assets\Reference\HeroEditor\Common\ExampleScripts\TestRoom.cs" />
     <Compile Include="Assets\Reference\HeroEditor\FantasyHeroes\TestRoom\Scarecrow\Scarecrow.cs" />
     <Compile Include="Assets\Reference\HeroEditor\SpriteSheetMaker\SpriteSheetMaker.cs" />
+    <None Include="Assets\Extras\2d-extras\Assets\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
+    <None Include="Assets\Extras\2d-extras\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
     <None Include="Assets\Reference\HeroEditor\FantasyHeroes\TestRoom\BackgroundLicense.txt" />
     <None Include="Assets\Data\Old Text Files\races.txt" />
     <None Include="Assets\Reference\HeroEditor\Common\Shaders\GrayPaint.shader" />
