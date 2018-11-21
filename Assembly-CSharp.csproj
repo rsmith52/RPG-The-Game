@@ -62,7 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\Classes\Role.cs" />
+    <Compile Include="Assets\Code\Items\Armor.cs" />
+    <Compile Include="Assets\Code\Items\Equipment.cs" />
+    <Compile Include="Assets\Code\Items\Holdable.cs" />
     <Compile Include="Assets\Code\Items\Item.cs" />
+    <Compile Include="Assets\Code\Items\Weapon.cs" />
+    <Compile Include="Assets\Code\Items\Wearable.cs" />
     <Compile Include="Assets\Code\Movement\MovingCharacter.cs" />
     <Compile Include="Assets\Code\Movement\MovingPlayer.cs" />
     <Compile Include="Assets\Code\Stats\CharacterStats.cs" />

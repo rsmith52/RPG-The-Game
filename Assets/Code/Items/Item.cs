@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Item", menuName = "Data/Items/Item", order = 1)]
-public class Item : ScriptableObject {
+public abstract class Item : ScriptableObject {
 
     public string itemName;
     public string itemDescription;
     public Sprite itemIcon;
+
+    public int itemValue;
     public int itemWeight;
 	
 }
