@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using RPGNamespace;
 
-[CreateAssetMenu(fileName = "Weapon", menuName = "Data/Items/Weapon", order = 2)]
+[CreateAssetMenu(fileName = "Weapon", menuName = "Data/Items/Weapon", order = 3)]
 public class Weapon : Holdable {
 
-    public string weaponType; // Sword, Dagger, Hammer, etc
+    public WeaponType weaponType;
     public string weaponDamage; // How much damage it does
+    public int weaponRange; // In tiles
+    public AmmoType weaponAmmoType;
 
     protected override void onEquip () {
         // Add attack option

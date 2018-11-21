@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using RPGNamespace;
 
-[CreateAssetMenu(fileName = "Armor", menuName = "Data/Items/Armor", order = 1)]
+[CreateAssetMenu(fileName = "Armor", menuName = "Data/Items/Armor", order = 2)]
 public class Armor : Wearable {
 
-    public string armorType; // Light, Medium, Heavy
+    public ArmorType armorType;
     public int armorMod; // How much protection it adds
 
     protected override void onEquip () {
