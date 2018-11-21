@@ -69,7 +69,8 @@
     <Compile Include="Assets\Code\Stats\MeteredStat.cs" />
     <Compile Include="Assets\Code\Stats\PlayerStats.cs" />
     <Compile Include="Assets\Code\Stats\Stat.cs" />
-    <Compile Include="Assets\Code\Utilities\DataLoader.cs" />
+    <Compile Include="Assets\Code\Utilities\GameManager.cs" />
+    <Compile Include="Assets\Code\Utilities\Loader.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\AnimationEvents.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\BowShooting.cs" />
     <Compile Include="Assets\Reference\HeroEditor\Common\CharacterScripts\Character.cs" />
