@@ -8,6 +8,8 @@ public class MovingPC : MovingCharacter {
     private Animator animator; // animator component
     private PlayerStats stats; // stats script to get speed
 
+    public bool playerControlled;
+
     protected override void Start() {
         // Get components and set move speed from speed stat
         animator = transform.GetChild(0).GetComponent<Animator>();
@@ -22,9 +24,11 @@ public class MovingPC : MovingCharacter {
         int horizontal = 0;
         int vertical = 0;
 
-        // Get user input
-        horizontal = (int)(Input.GetAxisRaw("Horizontal"));
-        vertical = (int)(Input.GetAxisRaw("Vertical"));
+        if (playerControlled) {
+            // Get user input
+            horizontal = (int)(Input.GetAxisRaw("Horizontal"));
+            vertical = (int)(Input.GetAxisRaw("Vertical"));
+        }
 
         // See if any input was given, update animations
         if (horizontal == 0 && vertical == 0) {

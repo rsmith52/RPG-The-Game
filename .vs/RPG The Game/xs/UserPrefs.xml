@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{72BB5F83-36C9-EEF9-91A9-011204F5F394}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/Movement/MovingCharacter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/Movement/MovingPC.cs">
     <Files>
-      <File FileName="Assets/Code/Movement/MovingCharacter.cs" Line="42" Column="9" />
-      <File FileName="Assets/Code/Movement/MovingPC.cs" Line="21" Column="41" />
+      <File FileName="Assets/Code/Movement/MovingCharacter.cs" Line="42" Column="1" />
+      <File FileName="Assets/Code/Movement/MovingPC.cs" Line="11" Column="15" />
       <File FileName="Assets/Code/Utilities/RPGNamespace.cs" Line="19" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
