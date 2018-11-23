@@ -5,6 +5,16 @@ using UnityEngine;
 namespace RPGNamespace {
 
     /// <summary>
+    /// Character types
+    /// </summary>
+    public enum CharacterType
+    {
+        Player,
+        NonPlayerCharacter,
+        Monster
+    };
+
+    /// <summary>
     /// Item Category Enums
     /// </summary>
     public enum Rarity

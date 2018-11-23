@@ -1,26 +1,43 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using RPGNamespace;
 
 public abstract class MovingCharacter : MonoBehaviour {
 
-    public float moveTime; // time in seconds it takes to move one unit
     public LayerMask blockingLayer; // layer with obstacles that impede movement
 
     private BoxCollider2D boxCollider; // this character's box collider
     private Rigidbody2D rb2d; // this character's rigid body
+
+    private CharacterType characterType;
     private float inverseMoveTime; // inverse of move time used for computing move speed
+
+    public void setCharacterType (CharacterType charType) {
+        characterType = charType;
+    }
+
+    public void setInverseMoveTime (float speed) {
+        inverseMoveTime = speed;
+    }
 
 	protected virtual void Start () {
         // Get components and speed set
         boxCollider = GetComponent<BoxCollider2D>();
         rb2d = GetComponent<Rigidbody2D>();
-        inverseMoveTime = 1f / moveTime;
 	}
 	
     protected bool Move (int xDir, int yDir, out RaycastHit2D hit) {
         // Figure out where moving from and to
         Vector2 start = transform.position;
+        // Fix to move to actual edges of moveable areas
+        if (characterType == CharacterType.Player) {
+            if (yDir > 0) {
+                start = start - new Vector2(0, 0.8f * yDir);
+            } else if (xDir != 0) {
+                start = start - new Vector2(0.3f * xDir, 0);
+            }
+        }
         Vector2 end = start + new Vector2(xDir, yDir);
 
         // Check for obtacles in the way of movement

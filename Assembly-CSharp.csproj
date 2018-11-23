@@ -72,7 +72,7 @@
     <Compile Include="Assets\Code\Items\Weapon.cs" />
     <Compile Include="Assets\Code\Items\Wearable.cs" />
     <Compile Include="Assets\Code\Movement\MovingCharacter.cs" />
-    <Compile Include="Assets\Code\Movement\MovingPlayer.cs" />
+    <Compile Include="Assets\Code\Movement\MovingPC.cs" />
     <Compile Include="Assets\Code\Stats\CharacterStats.cs" />
     <Compile Include="Assets\Code\Stats\MeteredStat.cs" />
     <Compile Include="Assets\Code\Stats\PlayerStats.cs" />
