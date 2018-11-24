@@ -254,3 +254,10 @@
 /Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/com.unity.cinemachine.editor.dll
 /Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/Cinemachine.dll.mdb
 /Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/com.unity.cinemachine.editor.dll.mdb
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/Pathfinding.Ionic.Zip.Reduced.dll
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/UnityEditor.UI.dll
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/AstarPathfindingProject.pdb
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/PackageToolsEditor.pdb
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/AstarPathfindingProjectEditor.pdb
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/UnityEditor.UI.dll.mdb
+/Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/UnityEditor.UI.xml

@@ -8,6 +8,9 @@ public class MovingPC : MovingCharacter {
     private Animator animator; // animator component
     private PlayerStats stats; // stats script to get speed
 
+    private float prevX; // last fixed update's x pos
+    private float prevY; // last fixed update's y pos
+
     public bool playerControlled;
 
     protected override void Start() {
@@ -28,30 +31,9 @@ public class MovingPC : MovingCharacter {
             // Get user input
             horizontal = (int)(Input.GetAxisRaw("Horizontal"));
             vertical = (int)(Input.GetAxisRaw("Vertical"));
-        }
-
-        // See if any input was given, update animations
-        if (horizontal == 0 && vertical == 0) {
-            animator.SetBool("moving", false);
-        } else {
-            animator.SetBool("moving", true);
+            // Don't allow diagonal movement
             if (horizontal != 0) {
-                if (horizontal < 0) {
-                    animator.SetInteger("direction", 3);
-                }
-                else {
-                    animator.SetInteger("direction", 1);
-                }
-                // Don't allow diagonal movement
                 vertical = 0;
-            }
-            else {
-                if (vertical > 0) {
-                    animator.SetInteger("direction", 0);
-                }
-                else {
-                    animator.SetInteger("direction", 2);
-                }
             }
         }
 
@@ -60,6 +42,39 @@ public class MovingPC : MovingCharacter {
             AttemptMove(horizontal, vertical);
         }
 
+    }
+
+    private void FixedUpdate () {
+        // Update animations
+        float changeX = transform.position.x - prevX;
+        float changeY = transform.position.y - prevY;
+        if (Mathf.Abs(changeX) < float.Epsilon && Mathf.Abs(changeY) < float.Epsilon) {
+            animator.SetBool("moving", false);
+        } else {
+            animator.SetBool("moving", true);
+            if (Mathf.Abs(changeX) > float.Epsilon) {
+                if (changeX < 0)
+                {
+                    animator.SetInteger("direction", 3);
+                }
+                else
+                {
+                    animator.SetInteger("direction", 1);
+                }
+            }
+            else {
+                if (changeY > 0)
+                {
+                    animator.SetInteger("direction", 0);
+                }
+                else
+                {
+                    animator.SetInteger("direction", 2);
+                }
+            }
+        }
+        prevX = transform.position.x;
+        prevY = transform.position.y;
     }
 
 }

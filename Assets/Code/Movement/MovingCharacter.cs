@@ -8,7 +8,7 @@ public abstract class MovingCharacter : MonoBehaviour {
     public LayerMask blockingLayer; // layer with obstacles that impede movement
 
     private BoxCollider2D boxCollider; // this character's box collider
-    private Rigidbody2D rb2d; // this character's rigid body
+    public Rigidbody2D rb2d; // this character's rigid body
 
     private CharacterType characterType;
     private float inverseMoveTime; // inverse of move time used for computing move speed
