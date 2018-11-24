@@ -50,29 +50,27 @@ public class MovingPC : MovingCharacter {
         float changeY = transform.position.y - prevY;
         if (Mathf.Abs(changeX) < float.Epsilon && Mathf.Abs(changeY) < float.Epsilon) {
             animator.SetBool("moving", false);
-        } else {
+        }
+        else {
             animator.SetBool("moving", true);
-            if (Mathf.Abs(changeX) > float.Epsilon) {
-                if (changeX < 0)
-                {
+            if (Mathf.Abs(changeX) > Mathf.Abs(changeY)) {
+                if (changeX < 0) {
                     animator.SetInteger("direction", 3);
                 }
-                else
-                {
+                else {
                     animator.SetInteger("direction", 1);
                 }
             }
             else {
-                if (changeY > 0)
-                {
+                if (changeY > 0) {
                     animator.SetInteger("direction", 0);
                 }
-                else
-                {
+                else {
                     animator.SetInteger("direction", 2);
                 }
             }
         }
+
         prevX = transform.position.x;
         prevY = transform.position.y;
     }
