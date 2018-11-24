@@ -296,10 +296,13 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="HeroEditor.Common">
-      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/Reference/HeroEditor/Common/HeroEditor.Common.dll</HintPath>
+      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/Extras/HeroEditor/Common/HeroEditor.Common.dll</HintPath>
     </Reference>
     <Reference Include="HeroEditor.Common.Editor">
-      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/Reference/HeroEditor/Common/Editor/HeroEditor.Common.Editor.dll</HintPath>
+      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/Extras/HeroEditor/Common/Editor/HeroEditor.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/Extras/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/raysmith/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -318,9 +321,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>/Users/raysmith/Unity/RPG The Game/Assets/Extras/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

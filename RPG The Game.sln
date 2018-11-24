@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{89E99151-4981-0795-4EA4-586A07B13013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{A467EE2C-92BA-F89B-3C58-F323AFE11287}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{F75FF955-610E-BFD1-AD78-C08FE174C567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{A467EE2C-92BA-F89B-3C58-F323AFE11287}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{1E930C6D-DC9D-470C-51FD-8DF257C0CDC3}"
 EndProject
@@ -25,14 +25,14 @@ Global
 		{89E99151-4981-0795-4EA4-586A07B13013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89E99151-4981-0795-4EA4-586A07B13013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89E99151-4981-0795-4EA4-586A07B13013}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F75FF955-610E-BFD1-AD78-C08FE174C567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F75FF955-610E-BFD1-AD78-C08FE174C567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75FF955-610E-BFD1-AD78-C08FE174C567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75FF955-610E-BFD1-AD78-C08FE174C567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A467EE2C-92BA-F89B-3C58-F323AFE11287}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E930C6D-DC9D-470C-51FD-8DF257C0CDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E930C6D-DC9D-470C-51FD-8DF257C0CDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E930C6D-DC9D-470C-51FD-8DF257C0CDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
