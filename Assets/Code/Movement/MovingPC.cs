@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RPGNamespace;
+using Pathfinding;
 
 public class MovingPC : MovingCharacter {
 
@@ -11,13 +12,19 @@ public class MovingPC : MovingCharacter {
     private float prevX; // last fixed update's x pos
     private float prevY; // last fixed update's y pos
 
+    // Used for switching control
     public bool playerControlled;
+    public bool shouldFollow;
+    private AIPath aipath;
+    private AIDestinationSetter destSetter;
 
     protected override void Start() {
         // Get components and set move speed from speed stat
         animator = transform.GetChild(0).GetComponent<Animator>();
         stats = GetComponent<PlayerStats>();
         setCharacterType(CharacterType.Player);
+        aipath = GetComponent<AIPath>();
+        destSetter = GetComponent<AIDestinationSetter>();
         setInverseMoveTime(stats.speed.getValue());
         base.Start();
     }
@@ -73,6 +80,22 @@ public class MovingPC : MovingCharacter {
 
         prevX = transform.position.x;
         prevY = transform.position.y;
+    }
+
+    public void setAsFollowed () {
+        aipath.canSearch = false;
+        aipath.canMove = false;
+        destSetter.target = null;
+       
+        playerControlled = true;
+    }
+
+    public void setAsFollower (GameObject target) {
+        playerControlled = false;
+
+        aipath.canSearch = true;
+        aipath.canMove = true;
+        destSetter.target = target.transform;
     }
 
 }

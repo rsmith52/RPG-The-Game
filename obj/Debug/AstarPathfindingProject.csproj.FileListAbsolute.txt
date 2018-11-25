@@ -278,7 +278,6 @@
 /Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
 /Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/Unity.IvyParser.dll.mdb
 /Users/raysmith/Unity/RPG The Game/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
-/Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.csprojAssemblyReference.cache
 /Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.csproj.CoreCompileInputs.cache
 /Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.csproj.CopyComplete
 /Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.dll
