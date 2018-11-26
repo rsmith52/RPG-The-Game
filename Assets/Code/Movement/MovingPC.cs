@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using RPGNamespace;
 using Pathfinding;
+using Cinemachine;
 
 public class MovingPC : MovingCharacter {
 
@@ -17,15 +18,19 @@ public class MovingPC : MovingCharacter {
     public bool shouldFollow;
     private AIPath aipath;
     private AIDestinationSetter destSetter;
+    private CinemachineVirtualCamera virtualCamera;
 
     protected override void Start() {
         // Get components and set move speed from speed stat
         animator = transform.GetChild(0).GetComponent<Animator>();
         stats = GetComponent<PlayerStats>();
+        setInverseMoveTime(stats.speed.getValue());
+        // Set character type to player
         setCharacterType(CharacterType.Player);
+        // Get components for AI following and camera
         aipath = GetComponent<AIPath>();
         destSetter = GetComponent<AIDestinationSetter>();
-        setInverseMoveTime(stats.speed.getValue());
+        virtualCamera = GameObject.FindGameObjectWithTag("VirtualCamera").GetComponent<CinemachineVirtualCamera>();
         base.Start();
     }
 
@@ -77,7 +82,7 @@ public class MovingPC : MovingCharacter {
                 }
             }
         }
-
+        // Store for next fixed update
         prevX = transform.position.x;
         prevY = transform.position.y;
     }
@@ -88,6 +93,7 @@ public class MovingPC : MovingCharacter {
         destSetter.target = null;
        
         playerControlled = true;
+        virtualCamera.Follow = transform;
     }
 
     public void setAsFollower (GameObject target) {

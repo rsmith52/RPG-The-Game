@@ -282,3 +282,4 @@
 /Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.csproj.CopyComplete
 /Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.dll
 /Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.pdb
+/Users/raysmith/Unity/RPG The Game/obj/Debug/AstarPathfindingProject.csprojAssemblyReference.cache

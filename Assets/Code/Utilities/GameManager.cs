@@ -2,8 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
 
@@ -23,7 +22,6 @@ public class GameManager : MonoBehaviour
 
     // Initializes the game
     void InitGame() {
-
 
     }
 }
